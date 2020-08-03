@@ -1,9 +1,11 @@
 package com.adorsys.demo.service;
 
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-interface LoggingService {
+
+public interface LoggingService {
 
     public void logRequest(HttpServletRequest httpServletRequest, Object object);
 
